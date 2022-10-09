@@ -1,0 +1,495 @@
+/* General css */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Index page CSS ----------------------------------*/
+/* Header CSS */
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 100px;
+	z-index: 10;
+	background: black;
+}
+header .logo {
+	position: relative;
+	font-size: 1.5em;
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+}
+header ul {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 10px 0;
+}
+header ul li {
+	list-style: none;
+	margin: 0 10px;
+}
+header ul li a {
+	color: white;
+	text-decoration: none;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+header ul li a:hover {
+	color: gray;
+}
+.aboutus a {
+	position: relative;
+	color: white;
+	text-decoration: none;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+.aboutus a:hover {
+	color: gray;
+}
+/* Banner CSS */
+.banner {
+	background: gray;
+	padding: 200px 100px 100px;
+	min-height: 100vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.banner .content {
+	max-width: 700px;
+}
+.banner .content h2 {
+	font-size: 3em;
+	color: black;
+	font-weight: 600;
+}
+.banner .content p {
+	font-size: 1em;
+	color: white;
+}
+.banner .image {
+	filter: invert(1);
+	max-width: 400px;
+	margin-left: 50px;
+}
+.image-about{
+	max-width: 400px;
+	margin-left: 50px;
+	border-radius: 50%;
+}
+/* card-------------------------------------- */
+.cardflex {
+	background: gainsboro;
+	padding: 200px 100px 100px;
+	min-height: 100vh;
+}
+.card-content h2 {
+	font-size: 3em;
+	color: black;
+	font-weight: 600;
+	text-align: center;
+}
+.cards-section {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.cell {
+	background: whitesmoke;
+	width: 270px;
+	margin: 30px;
+	border-radius: 15px;
+}
+.card-image {
+	height: 210px;
+	margin-bottom: 15px;
+	max-width: 100%;
+	background-size: cover;
+	border-radius: 15px 15px 10px 10px;
+}
+span{
+	margin: 10px;
+}
+/* Image links for cards--------------------------------------------------------------------*/
+/* Sports page -------------------------- */
+.Athlete-pic1{
+	background-image: url('https://img.theweek.in/content/dam/week/news/sports/images/2018/8/11/mbappe-neymar-afp.jpg');
+}
+.Athlete-pic3 {
+	background-image: url('https://www.gannett-cdn.com/presto/2021/08/31/USAT/747df655-ed92-4e32-9502-5f1548d2ac23-GTY_1323118652.jpg?width=1320&height=952&fit=crop&format=pjpg&auto=webp');
+}
+.Athlete-pic2 {
+	background-image: url('https://e1.365dm.com/21/08/768x432/skysports-moeen-ali-india-england_5480078.jpg?20210815175605');
+}
+
+.Athlete-img1{
+	background-image: url('https://e1.365dm.com/20/03/768x432/skysports-max-verstappen-zandvoort_4938273.jpg');
+}
+.Athlete-img2{
+	background-image: url('https://e0.365dm.com/21/08/2048x1152/skysports-nba-chicago-bulls_5492406.jpg?20210827182122');
+}
+.Athlete-img3{
+	background-image: url('https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/322400/322475.4.jpg');
+}
+.Athlete-img4{
+	background-image: url('https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2021%2F0811%2Fr894317_1296x729_16%2D9.jpg&w=1140&cquality=40&format=jpg');
+}
+.Athlete-img5{
+	background-image: url('https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2021%2F0831%2Fr903105_1296x729_16%2D9.jpg&w=1140&cquality=40&format=jpg');
+}
+.Esports-pic1 {
+	background-image: url('https://cdn1.dotesports.com/wp-content/uploads/2020/09/25160248/31177973967_52de30be8f_k.jpg');
+}
+.Esports-pic2 {
+	background-image: url('https://cdn1.dotesports.com/wp-content/uploads/2021/08/03092058/seer-screenshot-apex-legends-pose-3-emergence-1080p.png');
+}
+.Esports-pic3 {
+	background-image: url('https://cdn1.dotesports.com/wp-content/uploads/2021/07/04124317/VALORANT-Omen-and-Phoenix-1-1536x864-1-2.jpg');
+}
+.Esports-pic4 {
+	background-image: url('https://cdn1.dotesports.com/wp-content/uploads/2018/12/20141643/2018_CWL_Champs_Aug19_73.jpg');
+}
+.Esports-pic5 {
+	background-image: url('https://cdn1.dotesports.com/wp-content/uploads/2021/08/29110957/fortnite-mike-lowrey-social-1920x1080-906079fdc05b.jpg');
+}
+/* Hollywood Page------------------ */
+.holly-pic1{
+	background-image: url('https://www.hollywoodreporter.com/wp-content/uploads/2021/08/Malcolm-X-Muhammad-Ali-in-Blood-Brothers-Still-3-Publicity-H-2021.jpg?w=681&h=383&crop=1');
+}
+.holly-pic2 {
+	background-image: url('https://hollywoodlife.com/wp-content/uploads/2021/07/mxpx-shutterstock-1.jpg?w=150&h=150&crop=1');
+}
+.holly-pic3 {
+	background-image: url('https://www.hollywoodreporter.com/wp-content/uploads/2019/06/spider-man-_far_from_home-publicity_still_13-h_2019.jpg?w=225&h=225&crop=1');
+}
+.Movie-pic1 {
+	background-image: url('https://static3.srcdn.com/wordpress/wp-content/uploads/2021/06/Alien-5-Geoffroy-Thoorens-Ripley-Hicks-Merc-Team-Concept-Art-Header.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5');
+}
+.Movie-pic2 {
+	background-image: url('https://static0.srcdn.com/wordpress/wp-content/uploads/2021/08/Spider-Man-fight-multiverse-Sinister-Six-No-Way-Home-theory.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5');
+}
+.Movie-pic3 {
+	background-image: url('https://img.cinemablend.com/filter:scale/quill/5/5/6/e/8/0/556e80e724d06eb1aaa745159aca5592228ae9cd.jpg?mw=600');
+}
+.Movie-pic4 {
+	 background-image: url('https://img.cinemablend.com/filter:scale/quill/9/c/a/4/4/c/9ca44cc5c17e5be204268cbb1413a86494ce2943.jpg?mw=600');
+}
+.Movie-pic5 {
+	 background-image: url('https://img.cinemablend.com/filter:scale/quill/2/4/f/b/8/8/24fb889e14cdaca34c4e145aee0abdd5223c8416.jpg?mw=600');
+}
+.Music-pic1 {
+	background-image: url('https://www.nme.com/wp-content/uploads/2021/08/Johnny-Marr-credit-Andy-Cotterill-1392x884.jpg');
+}
+.Music-pic2 {
+	background-image: url('https://www.nme.com/wp-content/uploads/2021/07/The-Spice-girls-Tim-Roney-Getty-1392x884.jpg');
+}
+.Music-pic3 {
+	background-image: url('https://www.nme.com/wp-content/uploads/2021/07/Kanye-West-%E2%80%93-Donda-1392x884.jpg');
+}
+.Music-pic4 {
+	background-image: url('https://www.nme.com/wp-content/uploads/2021/08/CHVRCHES-press-shot-3-1392x884.jpg');
+}
+.Music-pic5 {
+	background-image: url('https://www.nme.com/wp-content/uploads/2021/08/JB-video-1-press-shot-2021-1392x884.jpg');
+}
+/* Politics Page ----------------------- */
+.pol-pic1 {
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Canonization_2014-The_Canonization_of_Saint_John_XXIII_and_Saint_John_Paul_II_%2814036966125%29.png/300px-Canonization_2014-The_Canonization_of_Saint_John_XXIII_and_Saint_John_Paul_II_%2814036966125%29.png');
+}
+.pol-pic2 {
+	background-image: url('https://ichef.bbci.co.uk/news/976/cpsprodpb/1047C/production/_120348666_hi070078687.jpg');
+}
+.pol-pic3 {
+	background-image: url('https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F210831085424-06-wildlife-photographer-of-they-year-2021.jpg');
+}
+.inter-pic1 {
+	background-image: url('https://cdn.cnn.com/cnnnext/dam/assets/210831041259-shanghai-stock-exchange-file-2020-medium-tease.jpg');
+}
+.inter-pic2 {
+	background-image: url('https://ichef.bbci.co.uk/news/976/cpsprodpb/9D7A/production/_120341304_sarahred.jpg');
+}
+.inter-pic3 {
+	background-image: url('https://ichef.bbci.co.uk/news/976/cpsprodpb/DF01/production/_117098075_hi064615333-1.jpg');
+}
+.inter-pic4 {
+	background-image: url('https://ichef.bbci.co.uk/news/976/cpsprodpb/8BAB/production/_120355753_iss.jpg');
+}
+.inter-pic5{
+	background-image: url('https://ichef.bbci.co.uk/news/976/cpsprodpb/85BB/production/_120353243_gettyimages-1230124869-594x594.jpg');
+}
+
+.local-pic1 {
+	background-image: url('https://www.aljazeera.com/wp-content/uploads/2021/08/2021-08-31T194557Z_623781428_RC2JGP9U8SOH_RTRMADP_3_AFGHANISTAN-CONFLICT-BIDEN.jpg?resize=770%2C513');
+}
+.local-pic2 {
+	background-image: url('https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2021/06/920/518/aoc-.jpg?ve=1&tl=1');
+}
+.local-pic3 {
+	background-image: url('https://1seo.info/wp-content/uploads/2021/09/Washington-Post-GOP-Congressman-Threatened-US-Embassy-Staff-When-Attempting.jpg');
+}
+.local-pic4 {
+	background-image: url('https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/09/348/196/fridge_milkfile.jpg?ve=1&tl=1');
+}
+.local-pic5 {
+	background-image: url('https://cdn.cnn.com/cnnnext/dam/assets/210831203124-ukraine-volodymyr-zelensky-biden-white-house-exlarge-169.jpg');
+}
+/* food page ----------------------------- */
+.topfood-pic1 {
+	background-image: url('https://blog.balancedbites.com/wp-content/uploads/2021/08/Sausage-Zucchini-Cheddar-Frittata-header-1536x845.png');
+}
+.topfood-pic2 {
+	background-image: url('https://images.food52.com/a8QV36tDtJKqW9Wjx-UrbIj74E8=/1610x1076/filters:format(webp)/593f13a4-e1f2-4a53-b2c6-c75f235c166c--2021-0819_genius-basil-poundcakes_3x2_mj-kroeger.jpg');
+}
+.topfood-pic3 {
+	background-image: url('https://minimalistbaker.com/wp-content/uploads/2021/05/FLUFFY-Vegan-Strawberry-Cake-Gluten-Free-Fresh-strawberries-perfectly-sweet-and-just-9-ingredients-minimalistbaker-recipe-plantbased-glutenfree-cake-strawberry-9.jpg');
+}
+.chef-pic1 {
+	background-image: url('https://minimalistbaker.com/wp-content/uploads/2021/06/Apple-Pie-Overnight-Oats-SQUARE-300x300.jpg');
+}
+.chef-pic2 {
+	background-image: url('https://images.food52.com/DUNVXD2FLPO6dyLukAdYNMfPU-4=/2016x1344/filters:format(webp)/b9a0b650-632b-4051-956f-3dca5dc685bf--189_Rose_9780593138755_art_r1_1-1-.jpg');
+}
+.chef-pic3 {
+	background-image: url('https://blog.balancedbites.com/wp-content/uploads/2021/06/BB-Recipe-Header_KetoChickenTenders-1536x858.png');
+}
+.chef-pic4 {
+	background-image: url('https://minimalistbaker.com/wp-content/uploads/2021/06/Roasted-Serrano-White-Bean-Dip-SQUARE-300x300.jpg');
+}
+.chef-pic5 {
+	background-image: url('https://blog.balancedbites.com/wp-content/uploads/2021/04/BB-Featured-Image-Berry-Almond-Crunch-Ice-Cream-1536x858.png');
+}
+.reader-pic1 {
+	background-image: url('https://minimalistbaker.com/wp-content/uploads/2021/02/Gluten-Free-FlatBread-SQUARE-300x300.jpg');
+}
+.reader-pic2 {
+	background-image: url('https://blog.balancedbites.com/wp-content/uploads/2020/06/BB-Recipe-Header-Mini-Mediterranean-Kebabs-Kofta.png');
+}
+.reader-pic3 {
+	background-image: url('https://images.food52.com/dHZM3OzK6bvaQfAQ4L3euDf4EPU=/2016x1344/filters:format(webp)/9f5d4115-3b74-462d-ab77-f5cd2d862408--2014-0127_finalist_extraordinary-marinated-roasted-chicken-030.jpg');
+}
+.reader-pic4 {
+	background-image: url('https://images.food52.com/33WIKfF5I5kVjC50cpkpAAg93Qg=/2016x1344/filters:format(webp)/da54cfd6-7a62-4e48-89b7-c1533bbaf8de--2014-0225_CP_classic-chicken-piccata-005.jpg');
+}
+.reader-pic5 {
+	background-image: url('https://images.food52.com/iuV0wTFg6UFdBLo5sCPBY43pJTs=/2016x1344/filters:format(webp)/93fc00f2-586f-4d54-8c48-8bc8b396f133--2014-0520_CP_creamy-asparagus-lemon-walnut-pasta-014.jpg');
+}
+.readmore {
+	background-color: black;
+	color: white;
+	padding: 15px 20px;
+	display: block;
+	text-align: center;
+	margin: 20px 50px;
+	text-decoration: none;
+}
+.cell p {
+	padding: 10px;
+}
+.cell h3 {
+	padding: 10px;
+}
+.cell:hover {
+	background-color: rgba(62, 62, 62);
+	color: white;
+	cursor: pointer;
+	transform: scale(1.03);
+	transition: all 1s ease;
+}
+
+/* Footer------------------------------------ */
+.footer {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: row wrap;
+	padding: 50px;
+	color: white;
+	background: black;
+}
+
+.footer > * {
+	flex: 1 100%;
+}
+.l-footer {
+	margin-right: 1.25em;
+	margin-bottom: 2em;
+}
+.f-h2 {
+	font-weight: 900;
+	font-size: 16px;
+}
+.footer ul {
+	list-style: none;
+	padding-left: 0;
+}
+.footer li {
+	line-height: 2em;
+}
+.footer a {
+	text-decoration: none;
+}
+.r-footer {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: row wrap;
+}
+.r-footer > * {
+	flex: 1 50%;
+	margin-right: 1.25em;
+}
+
+.box a {
+	text-decoration: none;
+	color: #999;
+}
+
+.h-box {
+	column-count: 2;
+	column-gap: 1.25em;
+}
+.b-footer {
+	text-align: center;
+	color: #999;
+	padding-top: 50px;
+}
+.l-footer p {
+	padding-right: 20%;
+	color: #999;
+}
+
+.reveal {
+	position: relative;
+	transform: translateY(150px);
+	opacity: 0;
+	transition: all 2s ease;
+}
+.reveal.active {
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+/* Making site responsive ------------------------- */
+@media (max-width: 960px) {
+	/*Header---  */
+	header {
+		padding: 10px 20px;
+		flex-direction: column;
+	}
+	/* Banner--- */
+	.banner {
+		padding: 150 px 20 px 50px;
+		flex-direction: column-reverse;
+	}
+	.banner .image {
+		max-width: 80%;
+		margin-left: 0;
+	}
+	.banner .content h2 {
+		font-size: 2em;
+	}
+	.image-about {
+		max-width: 80%;
+		margin-left: 0;
+	}
+
+	/* Cards--- */
+}
+@media (max-width: 640px) {
+	.banner .image {
+		margin-top: 30px;
+	}
+	.image-about {
+		margin-top: 30px;
+	}
+
+}
+
+@media screen and (min-width: 600px) {
+	/* footer */
+	.r-footer > * {
+		flex: 1;
+	}
+	.features {
+		flex-grow: 2;
+	}
+	.l-footer {
+		flex: 1 0px;
+	}
+	.r-footer {
+		flex: 2 0px;
+	}
+}
+/* Photo SlideShow ------------------------------------------------------------------------------------ */
+
+#slider{
+    overflow: hidden;
+    
+}
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+   
+    animation:  20s slider infinite;
+}
+#slider figure img{
+    width: 20%;
+    max-height: 100vh;
+    float: left;
+    border-radius: 20px;
+}
+/* slider keyframes */
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+    
+}
+/* Gallery Heading */
+.gallery{
+    text-align: center;
+    font-size: 3em;
+	color: black;
+	font-weight: 600;
+
+}
